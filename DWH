@@ -1,1 +1,44 @@
-What is DWH ?
+Datawarehouse ~ Storage of Databases
+DWH is built on top of DB, but its purpose is different 
+Mostly used for Structured Data
+
+DWH
+- Store large volume of data
+- Designed for read heavy operations 
+- High latency
+- Denormalized => Data Redundancy is more
+- Columnar Storage => Parquet, ORC etc
+- Parallel processing of requests
+- OLAP (Online Analytical Processing)
+  => Teradata
+  => Exadata
+  => Snowflake 
+  => Red-Shift
+
+DB
+- Stores small volume of data 
+- Designed for write heavy operations 
+- Low latency 
+- Highly Normalized => Data Redundancy is less
+- Row based 
+- Not optimized for parallel processing
+- OLTP (Online Transactional Processing)
+  => MySQL
+  => Oracle
+  => Postgres
+
+
+Rules of DWH:
+=> Integrated 
+   - Multiple sources are integrated to a DWH to get data
+
+=> Subject Oriented 
+   - Reports can be genarated by analysing data in DWH
+
+=> Time Variant
+   - Historical Data 
+
+=> Non-Volatile 
+   - Data should not change at a point of time 
+
+
