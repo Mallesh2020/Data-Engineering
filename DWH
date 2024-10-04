@@ -2,6 +2,7 @@ Datawarehouse ~ Storage of Databases
 DWH is built on top of DB, but its purpose is different 
 Mostly used for Structured Data
 
+================================== DWH Vs DB ============================================
 DWH
 - Store large volume of data
 - Designed for read heavy operations 
@@ -27,8 +28,7 @@ DB
   => Oracle
   => Postgres
 
-
-Rules of DWH:
+========================================== Rules of DWH ==================================
 => Integrated 
    - Multiple sources are integrated to a DWH to get data
 
@@ -41,4 +41,19 @@ Rules of DWH:
 => Non-Volatile 
    - Data should not change at a point of time 
 
+===================================== DWH Vs Data Lake ====================================
+DL
+- Can share infinitely large volume of data 
+- Support Structured, Semi-Structured and Un-Structured data 
+- Doesn't require pre-defined schema 
+- ELT
+- Cost is Cheaper
+- Schema on read 
 
+DWH
+- Can share a limited storage
+- Only supports Structured data and Semi-Structured data 
+- Required pre-defined schema 
+- ETL
+- Higher Cost 
+- Schema on write 
