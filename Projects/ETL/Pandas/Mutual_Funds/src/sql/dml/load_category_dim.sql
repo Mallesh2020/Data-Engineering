@@ -1,0 +1,3 @@
+INSERT IGNORE INTO mutual_fund_analysis.categories (mutual_fund_category)
+SELECT DISTINCT mutual_fund_category 
+FROM mutual_fund_analysis.mf_stage
