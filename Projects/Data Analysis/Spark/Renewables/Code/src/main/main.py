@@ -10,7 +10,7 @@ def main():
     output_path_aggregates_with_nulls = 'D://Work_Items/Projects_Output/Renewables/Output/Aggregates_With_Nulls/'
     output_path_aggregates_without_nulls = 'D://Work_Items/Projects_Output/Renewables/Output/Aggregates_Without_Nulls/'
     window_duration = "10 minutes"
-    plot_save_path = 'D://Work_Items/Projects_Output/Renewables/Output/Plots'
+    plot_save_path = 'D://Work_Items/Projects_Output/Renewables/Output/Plots/'
 
     try:
         logger.info("Starting the Spark session.")
