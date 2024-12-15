@@ -38,7 +38,7 @@ def aggregations(df, window_duration):
                               min("value").alias("WTUR1_W_Min"),
                               max("value").alias("WTUR1_W_Max"),
                               stddev("value").alias("WTUR1_W_Stddev"),
-                              last("value", ignorenulls=True).alias("WTUR1_W_Last"))
+                              last("value").alias("WTUR1_W_Last"))
                          )
 
         aggregated_df = aggregated_df.withColumn("timestamp", col("window.start"))
