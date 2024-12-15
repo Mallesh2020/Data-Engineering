@@ -23,7 +23,13 @@ def plot(df, device, null_status, save_path):
         plt.xticks(rotation=45)
         plt.tight_layout()
         # plt.show()   # -- Un-comment this to display the plots
-        plt.savefig(save_path, format='png')  # Saving plots to a directory
+
+        if not os.path.exists(save_path):
+            os.makedirs(save_path, exist_ok=True)
+
+        file_path = os.path.join(save_path, f"{device}_{null_status}.png")
+        plt.savefig(file_path, format='png')  # Saving plots to a directory
+        plt.close()
 
         logger.info(f"Visualization saved successfully for {device} {null_status} at {save_path}")
         logger.info(f"Visualization successfully created for {device} {null_status}")
