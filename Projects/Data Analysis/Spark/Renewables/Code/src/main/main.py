@@ -17,6 +17,7 @@ def main():
         spark = (SparkSession
                  .builder
                  .appName("Renewables")
+                 .master("local[6]")
                  .getOrCreate()
                  )
         spark.sparkContext.setLogLevel("ERROR")
@@ -41,7 +42,7 @@ def main():
         load.display_data(aggregated_without_nulls_df)
         load.save_data(aggregated_without_nulls_df, output_path_aggregates_without_nulls)
 
-        # Getting Devices List for Generating Visalizations
+        # Getting Devices List for Generating Visualizations
         logger.info("Fetching distinct devices.")
         distinct_devices = (devices_df
                             .select("device")

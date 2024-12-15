@@ -18,7 +18,7 @@ def display_data(df):
 def save_data(df, path):
     try:
         logger.info(f"Saving data to {path} in CSV format.")
-        df.write.mode('overwrite').patitionBy('device').format('csv').save(path)
+        df.write.mode('overwrite').partitionBy('device').format('csv').save(path)
         logger.info(f"Data saved successfully to {path}.")
 
     except Exception as e:
