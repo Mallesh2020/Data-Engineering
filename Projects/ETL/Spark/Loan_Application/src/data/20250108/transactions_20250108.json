@@ -1,0 +1,50 @@
+[
+  {
+      "transaction_id": 501,
+      "user_id": 1,
+      "loan_id": 201,
+      "amount": 4604.17,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-02-07 10:00:00"
+  },
+  {
+      "transaction_id": 502,
+      "user_id": 2,
+      "loan_id": 202,
+      "amount": 6956.25,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-03-12 12:30:00"
+  },
+  {
+      "transaction_id": 503,
+      "user_id": 3,
+      "loan_id": 203,
+      "amount": 9366.67,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-04-17 14:15:00"
+  },
+  {
+      "transaction_id": 504,
+      "user_id": 4,
+      "loan_id": 204,
+      "amount": 2187.50,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-05-22 09:45:00"
+  },
+  {
+      "transaction_id": 505,
+      "user_id": 5,
+      "loan_id": 205,
+      "amount": 5500.00,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-06-27 16:20:00"
+  },
+  {
+      "transaction_id": 506,
+      "user_id": 6,
+      "loan_id": 206,
+      "amount": 8250.00,
+      "transaction_type": "Repay",
+      "transaction_date": "2023-08-01 18:10:00"
+  }
+]
