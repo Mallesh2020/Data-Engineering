@@ -1,0 +1,48 @@
+[
+    {
+      "executive_id": 501,
+      "defaulter_id": null,
+      "executive_name": "Ravi Kumar",
+      "contact_number": "9876543210",
+      "is_resolved": null,
+      "assigned_at": null,
+      "updated_at": null
+    },
+    {
+      "executive_id": 502,
+      "defaulter_id": null,
+      "executive_name": "Anita Sharma",
+      "contact_number": "8765432109",
+      "is_resolved": null,
+      "assigned_at": null,
+      "updated_at": null
+    },
+    {
+      "executive_id": 503,
+      "defaulter_id": null,
+      "executive_name": "Rajesh Verma",
+      "contact_number": "7654321098",
+      "is_resolved": null,
+      "assigned_at": null,
+      "updated_at": null
+    },
+    {
+      "executive_id": 504,
+      "defaulter_id": null,
+      "executive_name": "Priya Singh",
+      "contact_number": "6543210987",
+      "is_resolved": null,
+      "assigned_at": null,
+      "updated_at": null
+    },
+    {
+      "executive_id": 505,
+      "defaulter_id": null,
+      "executive_name": "Amit Patel",
+      "contact_number": "5432109876",
+      "is_resolved": null,
+      "assigned_at": null,
+      "updated_at": null
+    }
+  ]
+  

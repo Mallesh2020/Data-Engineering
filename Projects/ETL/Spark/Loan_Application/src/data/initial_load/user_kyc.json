@@ -1,0 +1,50 @@
+[
+    {
+      "kyc_id": 101,
+      "user_id": 1,
+      "document_type": "Aadhar",
+      "document_number": "1234-5678-9012",
+      "kyc_status": "Success",
+      "submitted_at": "2023-02-01 10:00:00"
+    },
+    {
+      "kyc_id": 102,
+      "user_id": 2,
+      "document_type": "PAN",
+      "document_number": "ABCDE1234F",
+      "kyc_status": "Success",
+      "submitted_at": "2023-02-15 14:30:00"
+    },
+    {
+      "kyc_id": 103,
+      "user_id": 3,
+      "document_type": "Aadhar",
+      "document_number": "2345-6789-0123",
+      "kyc_status": "Success",
+      "submitted_at": "2023-03-10 09:15:00"
+    },
+    {
+      "kyc_id": 104,
+      "user_id": 4,
+      "document_type": "PAN",
+      "document_number": "XYZAB5678C",
+      "kyc_status": "Success",
+      "submitted_at": "2023-04-05 11:45:00"
+    },
+    {
+      "kyc_id": 105,
+      "user_id": 5,
+      "document_type": "Aadhar",
+      "document_number": "3456-7890-1234",
+      "kyc_status": "Success",
+      "submitted_at": "2023-05-20 16:00:00"
+    },
+    {
+      "kyc_id": 106,
+      "user_id": 6,
+      "document_type": "PAN",
+      "document_number": "LMNOP6789D",
+      "kyc_status": "Success",
+      "submitted_at": "2023-06-25 18:20:00"
+    }
+  ]  

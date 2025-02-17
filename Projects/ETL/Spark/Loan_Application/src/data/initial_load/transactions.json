@@ -1,0 +1,51 @@
+[
+    {
+      "transaction_id": 401,
+      "user_id": 1,
+      "loan_id": 201,
+      "amount": 55250.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-02-07 10:00:00"
+    },
+    {
+      "transaction_id": 402,
+      "user_id": 2,
+      "loan_id": 202,
+      "amount": 83475.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-03-12 12:30:00"
+    },
+    {
+      "transaction_id": 403,
+      "user_id": 3,
+      "loan_id": 203,
+      "amount": 112400.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-04-17 14:15:00"
+    },
+    {
+      "transaction_id": 404,
+      "user_id": 4,
+      "loan_id": 204,
+      "amount": 26250.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-05-22 09:45:00"
+    },
+    {
+      "transaction_id": 405,
+      "user_id": 5,
+      "loan_id": 205,
+      "amount": 66000.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-06-27 16:20:00"
+    },
+    {
+      "transaction_id": 406,
+      "user_id": 6,
+      "loan_id": 206,
+      "amount": 99000.00,
+      "transaction_type": "Borrow",
+      "transaction_date": "2023-08-01 18:10:00"
+    }
+  ]
+  

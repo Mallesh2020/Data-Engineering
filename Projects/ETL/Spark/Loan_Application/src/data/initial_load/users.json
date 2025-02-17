@@ -1,0 +1,62 @@
+[
+    {
+      "user_id": 1,
+      "user_name": "Mallesh",
+      "email": "mallesh@example.com",
+      "phone": "9876543210",
+      "date_of_birth": "1990-05-12",
+      "address": "Hyderabad, India",
+      "sign_up_date": "2023-01-15 10:30:00",
+      "account_closed_date": null
+    },
+    {
+      "user_id": 2,
+      "user_name": "Chaitu",
+      "email": "chaitu@example.com",
+      "phone": "9876543211",
+      "date_of_birth": "1992-07-24",
+      "address": "Bangalore, India",
+      "sign_up_date": "2023-02-20 12:15:00",
+      "account_closed_date": null
+    },
+    {
+      "user_id": 3,
+      "user_name": "Bhaskar",
+      "email": "bhaskar@example.com",
+      "phone": "9876543212",
+      "date_of_birth": "1988-11-30",
+      "address": "Chennai, India",
+      "sign_up_date": "2022-12-05 14:45:00",
+      "account_closed_date": null
+    },
+    {
+      "user_id": 4,
+      "user_name": "Rahul",
+      "email": "rahul@example.com",
+      "phone": "9876543213",
+      "date_of_birth": "1995-03-18",
+      "address": "Pune, India",
+      "sign_up_date": "2023-04-10 08:00:00",
+      "account_closed_date": null
+    },
+    {
+      "user_id": 5,
+      "user_name": "Yashu",
+      "email": "yashu@example.com",
+      "phone": "9876543214",
+      "date_of_birth": "1993-09-25",
+      "address": "Delhi, India",
+      "sign_up_date": "2023-05-22 16:20:00",
+      "account_closed_date": null
+    },
+    {
+      "user_id": 6,
+      "user_name": "Akhil",
+      "email": "akhil@example.com",
+      "phone": "9876543215",
+      "date_of_birth": "1991-06-05",
+      "address": "Mumbai, India",
+      "sign_up_date": "2023-06-15 19:30:00",
+      "account_closed_date": null
+    }
+  ]  

@@ -1,0 +1,50 @@
+[
+    {
+      "loan_id": 201,
+      "loan_amount": 50000,
+      "tenure": 12,
+      "interest_rate": 10.5,
+      "total_amount": 55250.00,
+      "offer_status": "Active"
+    },
+    {
+      "loan_id": 202,
+      "loan_amount": 75000,
+      "tenure": 18,
+      "interest_rate": 9.8,
+      "total_amount": 83475.00,
+      "offer_status": "Active"
+    },
+    {
+      "loan_id": 203,
+      "loan_amount": 100000,
+      "tenure": 24,
+      "interest_rate": 11.2,
+      "total_amount": 112400.00,
+      "offer_status": "Active"
+    },
+    {
+      "loan_id": 204,
+      "loan_amount": 25000,
+      "tenure": 6,
+      "interest_rate": 8.5,
+      "total_amount": 26250.00,
+      "offer_status": "Active"
+    },
+    {
+      "loan_id": 205,
+      "loan_amount": 60000,
+      "tenure": 15,
+      "interest_rate": 10.0,
+      "total_amount": 66000.00,
+      "offer_status": "Active"
+    },
+    {
+      "loan_id": 206,
+      "loan_amount": 90000,
+      "tenure": 20,
+      "interest_rate": 9.5,
+      "total_amount": 99000.00,
+      "offer_status": "Active"
+    }
+  ]  

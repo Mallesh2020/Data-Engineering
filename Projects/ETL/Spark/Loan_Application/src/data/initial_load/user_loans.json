@@ -1,0 +1,44 @@
+[
+  {
+    "loan_id": 201,
+    "user_id": 1,
+    "status": "Approved",
+    "applied_date": "2023-01-15 09:30:00",
+    "approved_date": "2023-01-20 11:00:00"
+  },
+  {
+    "loan_id": 202,
+    "user_id": 2,
+    "status": "Approved",
+    "applied_date": "2023-02-10 10:15:00",
+    "approved_date": "2023-02-15 14:30:00"
+  },
+  {
+    "loan_id": 203,
+    "user_id": 3,
+    "status": "Approved",
+    "applied_date": "2023-03-05 08:45:00",
+    "approved_date": "2023-03-10 12:20:00"
+  },
+  {
+    "loan_id": 204,
+    "user_id": 4,
+    "status": "Approved",
+    "applied_date": "2023-04-12 11:10:00",
+    "approved_date": "2023-04-17 15:40:00"
+  },
+  {
+    "loan_id": 205,
+    "user_id": 5,
+    "status": "Approved",
+    "applied_date": "2023-05-18 14:00:00",
+    "approved_date": "2023-05-22 16:50:00"
+  },
+  {
+    "loan_id": 206,
+    "user_id": 6,
+    "status": "Approved",
+    "applied_date": "2023-06-25 09:20:00",
+    "approved_date": "2023-06-30 13:15:00"
+  }
+]
