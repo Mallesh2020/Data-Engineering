@@ -1,0 +1,48 @@
+Project Directory Structure:
+
+src 
+-- main 
+   logger.py       --> Define Logger Code 
+   config.py       --> Database and any other available Configurations
+   database.py     --> Database Operations
+   extract.py      --> Data Extraction
+   transform.py    --> Data Pipelies including Loading the Data to tables
+   initial_load.py --> Run for the 1st time when Loan Application is created for the 1st time 
+   main.py         --> Daily runs other than 1st time 
+   
+-- data
+   -- initial_load: Initial Load when Application runs for the 1st time 
+   -- 20250108 (Business Date): We get files for respective dates in each Business date directory path
+   
+-- sql
+   -- ddl --> MySQL Create Statements for Tables
+
+==============================================================================================================
+
+Pre-requistes:
+
+1. Ensure Spark is installed and Configured
+2. Ensure MySQL is installed
+3. Download mysql-connector-python --> mysql-connector-j-8.0.33.jar
+4. Install pymysql to interact with MySQL database 
+
+
+==============================================================================================================
+
+Execution Steps:
+
+1. Run the initial_load.py 1st to laod the tables
+   - users
+   - user_kyc
+   - loan_offers 
+   - user_loans 
+   - transactions 
+
+2. Run the main.py script for the daily files
+
+3. Daily files have _{Business_Date} ensuring we get files for each Business Date with the date in the filename 
+   Also enusre each day files land in their respective Business date directory (Example date -  20250108 is given) 
+
+4. Also provide the Business date in the extract.py (Variable is created for Business Date) 
+   For the time being, I have provided it manually
+   In the later stages it can be improved by Parametrizing   
